@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 */
 body {
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em 2em 1em 2em;
 }
 header {
     font-family: 'Karla', sans-serif;
@@ -13,6 +13,10 @@ header {
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    padding-bottom: .5em;
+}
+h2{
+    margin-left: 1em;
 }
 nav {
     display: inline-flex;
@@ -32,25 +36,24 @@ a {
 footer {
     border: 1px solid gray; 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+     
 }
 main {
     width: 100%;
-    background-color: gainsboro;  
-    margin: 2em 0em 2em 0em;
+    /* background-color: gainsboro;   */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 img {
     width: 100%;
-    max-width: 670px;
-    
+    /* min-width: 400px; */
     height: auto;
+    
 }
 div{
-    width: 45%;
+    width: 46%;
     height: auto;
-    margin: 1em; 
-   
+   margin: 1em;
 }
