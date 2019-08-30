@@ -5,11 +5,11 @@ font-family: 'Roboto', sans-serif;
 */
 body {
     margin: 0 auto;
-    
+    padding: 2em;
 }
 header {
     font-family: 'Karla', sans-serif;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -28,6 +28,27 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    margin: 2em;
+
+footer {
+    border: 1px solid gray; 
+    display: flex;
+    justify-content: center; 
+}
+main {
+    background-color: gainsboro;  
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    /*width: 450px;
+    height: 400px;*/
+}
+div{
+    margin: 1em; 
+    
 }
