@@ -34,7 +34,7 @@ a {
 
 
 footer {
-    border: 1px solid gray; 
+    /* border: 1px solid gray;  */
     display: flex;
     justify-content: center;
      
@@ -54,6 +54,7 @@ div{
     width: 46%;
     height: auto;
    margin: 1em;
+   font-family: 'Karla', sans-serif;
 }
 
 /* .back {
@@ -77,4 +78,13 @@ div{
     margin: 200px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+.icon{
+    width: 30px;
+    height: auto;
+    padding: 5px;
+    margin: 1em;
+}
+p{
+line-height: 1.8;
 }
